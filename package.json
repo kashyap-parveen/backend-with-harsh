@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "learn backend with harsh sharma",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon server.js"
   },
@@ -13,6 +14,7 @@
   "author": "Parveen Kashyap",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "mongoose": "^8.3.4"
